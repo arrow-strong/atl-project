@@ -49,3 +49,18 @@ TIER_ORDER = [
     "groq-medium",
     "groq-large",
 ]
+
+
+NLI_MODEL = "cross-encoder/nli-deberta-v3-base"
+SUPPORT_THRESHOLD = 0.5
+PASS_RATIO = 0.7
+MAX_RETRIES = 2
+
+CONF_WEIGHTS = {
+    "support": 0.5,
+    "retrieval": 0.3,
+    "agreement": 0.2,
+}
+
+ENABLE_AGREEMENT = True
+UNGROUNDED_CAP = 0.6

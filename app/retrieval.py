@@ -53,3 +53,9 @@ def retrieve(query: str, k: int = 4) -> list[dict]:
         })
 
     return results
+
+
+def embed(texts: list[str]):
+    """Normalized embeddings as a numpy array (cosine = dot product)."""
+    _init()
+    return _model.encode(texts, normalize_embeddings=True)
