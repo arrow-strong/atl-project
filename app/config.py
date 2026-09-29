@@ -24,3 +24,15 @@ MODELS = {
         "tier": "large",
     },
 }
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+DOCS_DIR = BASE_DIR / "data" / "docs"
+CHROMA_DIR = str(BASE_DIR / "data" / "chroma_db")
+
+EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+COLLECTION_NAME = "atl_kb"
+
+CHUNK_WORDS = 350
+CHUNK_OVERLAP = 50
