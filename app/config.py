@@ -36,3 +36,16 @@ COLLECTION_NAME = "atl_kb"
 
 CHUNK_WORDS = 350
 CHUNK_OVERLAP = 50
+
+ANALYZER_MODEL = "groq-medium"
+
+KB_SIM_THRESHOLD = 0.35
+
+TOP_K = 4
+MAX_CONTEXT_CHUNKS = 5
+
+TIER_ORDER = [
+    "local-small",
+    "groq-medium",
+    "groq-large",
+]
