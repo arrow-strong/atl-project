@@ -1,0 +1,9 @@
+What is overfitting?
+
+Compare supervised and unsupervised learning and explain when to use each
+
+Who won the 2010 FIFA World Cup?
+
+Hello, how are you?
+
+What is reinforcement learning?
