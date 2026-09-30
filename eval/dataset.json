@@ -1,0 +1,659 @@
+[
+  {
+    "category": "in_kb_simple",
+    "question": "What bias results from the overrepresentation of English text in large language model training data?",
+    "reference": "It creates language-based bias that downplays non‑English perspectives and imposes English‑centric worldviews through default response patterns.",
+    "expected": "answer",
+    "source": "Large_language_model.txt",
+    "id": "q000",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What is the mathematical relationship between perplexity and the average negative log likelihood per token?",
+    "reference": "Perplexity is the exponential of the average negative log likelihood per token, expressed as log(Perplexity) = - (1/N) ∑_{i=1}^{N} log Pr(token_i | context_i).",
+    "expected": "answer",
+    "source": "Large_language_model.txt",
+    "id": "q001",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What are the two common methods for reducing a multiclass problem to binary classification in multiclass SVM?",
+    "reference": "The common methods are one-versus-all, which builds a binary classifier for each class against all others, and one-versus-one, which builds a binary classifier for every pair of classes.",
+    "expected": "answer",
+    "source": "Support_vector_machine.txt",
+    "id": "q002",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What special token is used to represent unknown strings that are not part of the vocabulary?",
+    "reference": "The token \"[UNK]\" is used as a generic stand‑in for any string that is not in the vocabulary, and it stands for \"unknown\".",
+    "expected": "answer",
+    "source": "Transformer_(deep_learning_architecture).txt",
+    "id": "q003",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "In what year was retrieval-augmented generation (RAG) first proposed?",
+    "reference": "Retrieval-augmented generation was first proposed in 2020.",
+    "expected": "answer",
+    "source": "Retrieval-augmented_generation.txt",
+    "id": "q004",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "As of 2017, how many units do typical neural networks contain?",
+    "reference": "Typical neural networks have a few thousand to a few million units.",
+    "expected": "answer",
+    "source": "Deep_learning.txt",
+    "id": "q005",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What algorithm constructs a noisy gradient estimate using the likelihood ratio approach?",
+    "reference": "Williams's REINFORCE method, which is also known as the likelihood ratio method in the simulation-based optimization literature.",
+    "expected": "answer",
+    "source": "Reinforcement_learning.txt",
+    "id": "q006",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which neural network architecture does not require learning rates or randomized initial weights and can guarantee convergence in a single training step?",
+    "reference": "The cerebellar model articulation controller (CMAC) does not need learning rates or randomized initial weights, and its training can be guaranteed to converge in one step.",
+    "expected": "answer",
+    "source": "Deep_learning.txt",
+    "id": "q007",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What are the two basic approaches for computing the optimal action-value function when the Markov decision process is fully known?",
+    "reference": "The two basic approaches are value iteration and policy iteration, both of which generate a sequence of functions that converge to the optimal action-value function Q*.",
+    "expected": "answer",
+    "source": "Reinforcement_learning.txt",
+    "id": "q008",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What is the principal goal of statistics compared to machine learning?",
+    "reference": "Statistics aims to draw population inferences from a sample, whereas machine learning seeks to find generalisable predictive patterns.",
+    "expected": "answer",
+    "source": "Machine_learning.txt",
+    "id": "q009",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What neural network architecture did the 2016 Google Neural Machine Translation system use for its encoder and decoder?",
+    "reference": "Both the encoder and decoder were built from eight layers of bidirectional LSTM.",
+    "expected": "answer",
+    "source": "Transformer_(deep_learning_architecture).txt",
+    "id": "q010",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What type of surrogate model is popular in Bayesian optimisation for hyperparameter optimisation?",
+    "reference": "Gaussian processes are popular surrogate models in Bayesian optimisation used to do hyperparameter optimisation.",
+    "expected": "answer",
+    "source": "Machine_learning.txt",
+    "id": "q011",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which activation function became popular for CNNs after Fukushima's neocognitron, and why was it not used in the original model?",
+    "reference": "The rectified linear unit (ReLU) became a very popular activation function for CNNs. It was not used in Fukushima's neocognitron because all the weights were nonnegative, so lateral inhibition was employed instead.",
+    "expected": "answer",
+    "source": "Convolutional_neural_network.txt",
+    "id": "q012",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which type of regression model is cited as being highly portable, even to the point of being doable by hand?",
+    "reference": "A one‑variable linear regression is described as so portable that it could even be performed manually.",
+    "expected": "answer",
+    "source": "Overfitting.txt",
+    "id": "q013",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What are the two basic types of layers introduced in the neocognitron?",
+    "reference": "The neocognitron introduced the S‑layer, a shared‑weights receptive‑field (convolutional) layer, and the C‑layer, a downsampling layer that pools and normalizes activations.",
+    "expected": "answer",
+    "source": "Convolutional_neural_network.txt",
+    "id": "q014",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "According to the passage, what kind of nodes are present in a decision tree when it is drawn from left to right?",
+    "reference": "The passage states that a decision tree drawn from left to right contains only burst nodes (splitting paths) and no sink nodes (converging paths).",
+    "expected": "answer",
+    "source": "Decision_tree.txt",
+    "id": "q015",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which neural network, published in 1989, was trained to drive autonomously using backpropagation?",
+    "reference": "The ALVINN system, developed by Dean A. Pomerleau in 1989, was a neural network trained via backpropagation to drive autonomously.",
+    "expected": "answer",
+    "source": "Backpropagation.txt",
+    "id": "q016",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which linear models have been proposed as base estimators in place of decision trees for random forests?",
+    "reference": "Multinomial logistic regression and naive Bayes classifiers have been proposed and evaluated as linear model base estimators for random forests.",
+    "expected": "answer",
+    "source": "Random_forest.txt",
+    "id": "q017",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "How is the finite forest estimate m_{M,n}(x,Θ₁,…,Θ_M) defined in terms of the individual tree predictions?",
+    "reference": "The finite forest estimate is the average of the M tree predictions: m_{M,n}(x,Θ₁,…,Θ_M) = (1/M) ∑_{j=1}^{M} m_n(x,Θ_j).",
+    "expected": "answer",
+    "source": "Random_forest.txt",
+    "id": "q018",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which British neuroscientist is linked to the free energy principle in the context of artificial general intelligence mentioned in the passage?",
+    "reference": "Karl J. Friston, a British neuroscientist and theoretician at University College London, is associated with the free energy principle.",
+    "expected": "answer",
+    "source": "Natural_language_processing.txt",
+    "id": "q019",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What is the derivative of the logistic activation function as stated in the passage?",
+    "reference": "The derivative is given by dφ/dz = φ(z) · (1 − φ(z)).",
+    "expected": "answer",
+    "source": "Backpropagation.txt",
+    "id": "q020",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What is the effective time complexity of the standard Lloyd's algorithm?",
+    "reference": "The standard Lloyd's algorithm has an effective time complexity of O(nkdi), where n is the number of data points, k the number of clusters, d the dimensionality, and i the number of iterations.",
+    "expected": "answer",
+    "source": "K-means_clustering.txt",
+    "id": "q021",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What is the name of the guideline that recommends using ten observations per independent variable in regression modeling?",
+    "reference": "It is known as the \"one in ten rule,\" which suggests having roughly ten observations for each independent variable.",
+    "expected": "answer",
+    "source": "Overfitting.txt",
+    "id": "q022",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What condition on the angle between the negative gradient and the update direction ensures that the update points downhill?",
+    "reference": "The cosine of that angle must be positive, i.e., cos θₙ > 0.",
+    "expected": "answer",
+    "source": "Gradient_descent.txt",
+    "id": "q023",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which deep learning framework listed is described as an open-source framework used to train and deploy deep neural networks?",
+    "reference": "The Microsoft Cognitive Toolkit MXNet is described as an open-source deep learning framework used to train and deploy deep neural networks.",
+    "expected": "answer",
+    "source": "Recurrent_neural_network.txt",
+    "id": "q024",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What is the third component of the vector function G(x) as defined in the passage?",
+    "reference": "The third component is \\(\\exp(-x_{1}x_{2}) + 20 x_{3} + \\frac{10\\pi - 3}{3}\\).",
+    "expected": "answer",
+    "source": "Gradient_descent.txt",
+    "id": "q025",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "In the example given for a Boltzmann Machine, what is the probability that a binary neuron fires?",
+    "reference": "The binary neuron fires with a Bernoulli probability of 1/3.",
+    "expected": "answer",
+    "source": "Unsupervised_learning.txt",
+    "id": "q026",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What are the two RNNs called after distilling the RNN hierarchy?",
+    "reference": "They are referred to as the \"conscious\" chunker (the higher‑level RNN) and the \"subconscious\" automatizer (the lower‑level RNN).",
+    "expected": "answer",
+    "source": "Recurrent_neural_network.txt",
+    "id": "q027",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "How is the distance between the two margin hyperplanes expressed in terms of the weight vector w?",
+    "reference": "The distance equals 2 divided by the norm of w, i.e., 2 / ‖w‖.",
+    "expected": "answer",
+    "source": "Support_vector_machine.txt",
+    "id": "q028",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which open-source library offers a MapReduce-based implementation of k-means?",
+    "reference": "Mahout provides a MapReduce-based k-means implementation.",
+    "expected": "answer",
+    "source": "K-means_clustering.txt",
+    "id": "q029",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which algorithms listed in the passage require input features to be numerical and scaled to similar ranges?",
+    "reference": "Support-vector machines, linear regression, logistic regression, neural networks, and nearest neighbor methods all require the input features to be numerical and scaled to similar ranges.",
+    "expected": "answer",
+    "source": "Supervised_learning.txt",
+    "id": "q030",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What is the name of the more reproducible version of Retro that includes in-context RAG?",
+    "reference": "The more reproducible version is called Retro++ and it includes in-context RAG.",
+    "expected": "answer",
+    "source": "Retrieval-augmented_generation.txt",
+    "id": "q031",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What are the first and second order moments for a random vector according to the passage?",
+    "reference": "The first order moment is the mean vector, and the second order moment is the covariance matrix (when the mean is zero).",
+    "expected": "answer",
+    "source": "Unsupervised_learning.txt",
+    "id": "q032",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "In the supervised learning optimization problem J(g)=R_emp(g)+λC(g), what effect does setting λ to zero have on bias and variance?",
+    "reference": "Setting λ to zero reduces the problem to empirical risk minimization, which yields low bias and high variance.",
+    "expected": "answer",
+    "source": "Supervised_learning.txt",
+    "id": "q033",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "How many false positives are recorded for the decision tree model that uses the phi function?",
+    "reference": "The phi function model has zero false positives.",
+    "expected": "answer",
+    "source": "Decision_tree.txt",
+    "id": "q034",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What are the two primary types of parsing mentioned in the passage?",
+    "reference": "The passage identifies dependency parsing and constituency parsing as the two primary types of parsing.",
+    "expected": "answer",
+    "source": "Natural_language_processing.txt",
+    "id": "q035",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What are the three types of BioVectors introduced by Asgari and Mofrad for representing biological sequences?",
+    "reference": "The three types are BioVec for general biological sequences, ProtVec for protein (amino‑acid) sequences, and GeneVec for gene sequences.",
+    "expected": "answer",
+    "source": "Word_embedding.txt",
+    "id": "q036",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What term is used for neural networks that contain more than three layers?",
+    "reference": "Such networks are called deep neural networks, typically having at least two hidden layers in addition to the input and output layers.",
+    "expected": "answer",
+    "source": "Neural_network.txt",
+    "id": "q037",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "Which word embedding model trained on Google News texts has been shown to exhibit gender and racial biases?",
+    "reference": "The publicly available word2vec embedding trained on Google News texts has been shown to exhibit gender and racial biases.",
+    "expected": "answer",
+    "source": "Word_embedding.txt",
+    "id": "q038",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_simple",
+    "question": "What event in 2012 demonstrated the capabilities of deep neural networks trained using GPUs?",
+    "reference": "In 2012, the deep convolutional neural network AlexNet, created by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, won the ImageNet Large Scale Visual Recognition Challenge by a substantial margin, proving the power of deep networks trained on GPUs.",
+    "expected": "answer",
+    "source": "Neural_network.txt",
+    "id": "q039",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "In what ways do Retrieval‑Augmented Generation (RAG) for large language models and the Sequential Minimal Optimization (SMO) algorithm for support vector machines each reduce computational or financial costs, and how do their strategies differ regarding when and how they incorporate external information or optimization?",
+    "reference": "RAG lowers costs by avoiding frequent full‑model retraining; it fetches up‑to‑date documents at inference time, letting the LLM augment its static knowledge with external sources. SMO cuts training expense by decomposing the SVM quadratic problem into many tiny 2‑dimensional sub‑problems that can be solved analytically, eliminating costly matrix storage and numerical optimization.",
+    "expected": "answer",
+    "source": "Retrieval-augmented_generation.txt + Support_vector_machine.txt",
+    "id": "q040",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "Both passages discuss trade‑offs between speed and accuracy in deep‑learning systems: passage 2 describes speculative decoding and multi‑token prediction to accelerate language‑model inference, while passage 1 mentions deep‑learning methods (e.g., generative networks for molecule design, AlphaFold for protein structure) that speed up scientific discovery but still require experimental validation. How do the speed‑enhancing strategies in language‑model decoding compare to the acceleration approaches used in drug‑design and protein‑structure prediction, and what common accuracy‑versus‑efficiency considerations do they share?",
+    "reference": "Speculative decoding and multi‑token prediction speed up inference by generating and verifying multiple tokens in parallel, accepting a modest loss in prediction fidelity to reduce latency. Similarly, generative neural networks and AlphaFold accelerate candidate molecule or protein structure generation, but their outputs often need experimental confirmation, reflecting a trade‑off between rapid computational prediction and downstream validation accuracy. In both domains, practitioners balance faster, approximate results against the need for reliable, high‑quality outcomes.",
+    "expected": "answer",
+    "source": "Deep_learning.txt + Transformer_(deep_learning_architecture).txt",
+    "id": "q041",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "When a reinforcement‑learning agent uses a convolutional neural network (CNN) to map visual observations to actions, how do the MDP elements of state, action, and reward influence the selection of CNN hyperparameters (e.g., padding, stride) and the choice of loss function for training the network’s policy?",
+    "reference": "The agent’s current observation defines the CNN input (the MDP state), so padding and stride are chosen to preserve enough spatial detail for accurate state representation while keeping computation tractable. The network’s output is used to approximate the policy, and the loss function is selected to match the learning objective: a policy‑gradient or Q‑learning setup typically uses a loss based on the temporal‑difference error, whereas a supervised imitation setting might employ cross‑entropy (softmax) loss for discrete actions. In all cases, the reward signal guides how the loss is weighted during training, linking the MDP’s reward maximization goal to the CNN’s parameter updates.",
+    "expected": "answer",
+    "source": "Reinforcement_learning.txt + Convolutional_neural_network.txt",
+    "id": "q042",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "How do the concepts of hypothesis space and risk minimization (empirical vs. structural) described for general learning algorithms relate to the tokenization (e.g., BPE) and data‑cleaning steps used when training large language models?",
+    "reference": "In LLM training, the hypothesis space consists of probabilistic models (e.g., conditional distributions over token sequences) that map the tokenized input X to output predictions Y; tokenization (BPE) defines the representation of X, while data cleaning shapes the training distribution that the empirical risk is computed on. Structural risk minimization can then be applied by adding regularization or capacity constraints to the model to prevent overfitting to residual noise or low‑quality synthetic data introduced during preprocessing.",
+    "expected": "answer",
+    "source": "Supervised_learning.txt + Large_language_model.txt",
+    "id": "q043",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "How do the embedding methods used in Retrieval‑Augmented Generation (RAG) described in Passage 1 compare to the token or patch embeddings employed by multimodal transformer models such as vision transformers and Perceiver architectures discussed in Passage 2?",
+    "reference": "Both RAG and multimodal transformers rely on high‑dimensional vector embeddings, but they serve different roles: RAG converts retrieved documents into embeddings stored in a vector database for similarity search and prompt augmentation, whereas multimodal transformers embed image patches, spectrograms, or other modality tokens to feed directly into the attention mechanism. In essence, RAG embeddings enable external knowledge retrieval, while multimodal token embeddings enable the model to process non‑textual inputs within the transformer architecture.",
+    "expected": "answer",
+    "source": "Retrieval-augmented_generation.txt + Transformer_(deep_learning_architecture).txt",
+    "id": "q044",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "When training a deep‑learning classifier that ends with a Softmax output layer, how is gradient descent used to minimise the loss, and how does the convexity (or lack thereof) of the loss function affect the guarantee of reaching a global optimum?",
+    "reference": "Gradient descent updates the model parameters by moving opposite to the gradient of the loss (e.g., cross‑entropy) computed through back‑propagation, which includes the Softmax derivative. If the loss function is convex—such as the quadratic loss for a linear model—gradient descent is guaranteed to converge to the global minimum; however, deep neural networks introduce non‑convexities, so the method can only guarantee convergence to a local minimum in general.",
+    "expected": "answer",
+    "source": "Gradient_descent.txt + Deep_learning.txt",
+    "id": "q045",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "Both the crossbar adaptive array (CAA) self‑learning system and generative adversarial networks (GANs) rely on internal signals to guide learning without external rewards. How does the nature of the internal feedback (emotion in CAA vs. adversarial loss in GANs) differ in terms of its source, computation, and role in updating the model?",
+    "reference": "In CAA, emotion is an internally generated scalar value derived from the consequence situation v(s′) and added to the cross‑bar memory w(a,s) as a secondary reinforcement; it originates from a single‑input, single‑output loop and serves as a self‑evaluation of actions. In GANs, the feedback comes from a separate discriminator network that evaluates generated samples, producing a gradient‑based loss that the generator minimizes, so the signal is external to the generator but internal to the overall adversarial system, functioning as a competitive rather than self‑evaluative reward.",
+    "expected": "answer",
+    "source": "Machine_learning.txt + Deep_learning.txt",
+    "id": "q046",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "How do sparse dictionary learning and convolutional neural networks each address the challenge of high‑dimensional image data, and what are the key differences in how they exploit spatial structure?",
+    "reference": "Sparse dictionary learning reduces dimensionality by representing each image (or patch) as a sparse linear combination of learned basis functions, but it does not explicitly encode spatial locality and requires solving an NP‑hard optimization often approximated with heuristics like k‑SVD. Convolutional neural networks handle high‑dimensional images by using small receptive fields, weight sharing, and stacked convolutional layers, which directly exploit the grid‑topology and local correlations of pixels, drastically lowering the number of parameters. Consequently, sparse coding relies on sparsity constraints to compress data, whereas CNNs embed spatial structure through local connectivity and shared filters.",
+    "expected": "answer",
+    "source": "Machine_learning.txt + Convolutional_neural_network.txt",
+    "id": "q047",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "How do the specialized hardware accelerators such as TPUs described in Passage 1 facilitate the development and deployment of the large language models referenced in Passage 2, and what ethical concerns arise from the capabilities that this hardware enables?",
+    "reference": "TPUs and similar AI‑specific accelerators dramatically speed up the tensor computations required to train and run massive language models, making it feasible to build ever larger LLMs like those discussed in Passage 2. This rapid scaling raises ethical worries, including the tendency to anthropomorphize these models, the risk of attributing consciousness or suffering to them, and the broader need for systematic mitigation of such misperceptions.",
+    "expected": "answer",
+    "source": "Machine_learning.txt + Large_language_model.txt",
+    "id": "q048",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "Both LLM‑based agents and decision‑tree models aim to improve their performance over time. How does the Reflexion method enhance an LLM agent’s future behavior, and what analogous technique is used in decision‑tree learning to address instability and improve accuracy?",
+    "reference": "The Reflexion method records the episode’s transcript, prompts the LLM to generate “lessons learned,” and stores these lessons as long‑term memory that is supplied to the agent in subsequent episodes, thereby guiding better decisions. In decision‑tree learning, a comparable approach is to replace a single unstable tree with a random forest—a collection of trees—that reduces variance and improves predictive accuracy, albeit at the cost of interpretability.",
+    "expected": "answer",
+    "source": "Large_language_model.txt + Decision_tree.txt",
+    "id": "q049",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "How do the design choices for initializing centroids in k‑means clustering compare to the mathematical conditions required of a loss function for backpropagation, and what impact do these choices have on the algorithms' ability to converge to a good solution?",
+    "reference": "Both k‑means and backpropagation rely on initial conditions that affect convergence: k‑means initialization methods (e.g., Forgy, Random Partition, k‑means++) determine the starting centroids and can lead to local minima, while a loss function used in backpropagation must be differentiable (with well‑defined first and second derivatives) to allow gradient‑based updates. Poor centroid initialization may trap k‑means in suboptimal clusters, just as a loss function lacking smoothness or proper curvature can hinder gradient descent from reaching a low‑error optimum.",
+    "expected": "answer",
+    "source": "K-means_clustering.txt + Backpropagation.txt",
+    "id": "q050",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "How do the open‑weight, multimodal construction approaches used for models like DeepSeek‑R1 and the retrieval‑augmented generation (RAG) technique each aim to enhance model performance while controlling computational or financial costs, and what are the primary differences in how they achieve these goals?",
+    "reference": "Open‑weight multimodal models such as DeepSeek‑R1 lower overall operating costs by allowing researchers to reuse and fine‑tune a shared base model and by using tokenization‑based early or intermediate fusion to integrate image or video data without training a completely new architecture, though each query still requires extra compute for the additional modalities. RAG, by contrast, keeps the underlying LLM unchanged and adds a non‑parametric external memory that is queried at inference time, reducing the need for costly retraining and helping curb hallucinations by grounding responses in up‑to‑date documents. Thus, multimodal construction improves capability through architectural extensions, while RAG improves capability through external knowledge retrieval, each addressing cost in different parts of the pipeline.",
+    "expected": "answer",
+    "source": "Large_language_model.txt + Retrieval-augmented_generation.txt",
+    "id": "q051",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "According to the passages, what technical advances enabled deep neural network–based speech recognizers to overcome the inherent difficulties of speech segmentation and coarticulation in natural speech, and how did hardware developments contribute to these advances?",
+    "reference": "The shift to large‑scale discriminative DNNs with extensive training data and context‑dependent output layers allowed the models to learn implicit representations of word boundaries and coarticulation effects, reducing the need for explicit segmentation preprocessing. This breakthrough was made practical by hardware advances—especially fast GPU implementations—that permitted rapid training of deep networks with millions of parameters, turning the previously prohibitive computational cost into a tractable problem.",
+    "expected": "answer",
+    "source": "Deep_learning.txt + Natural_language_processing.txt",
+    "id": "q052",
+    "split": "dev"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "In what ways did the increase in computational power and the growing emphasis on quantitative evaluation during the late 1980s–1990s, as described in the history of NLP, enable the adoption of machine‑learning methods like support vector machines for natural‑language processing tasks?",
+    "reference": "The surge in computational resources (Moore’s law) and the shift toward quantitative evaluation made hand‑crafted rule systems cumbersome, prompting NLP researchers to explore statistical, data‑driven approaches. Support vector machines exemplify this transition: they use maximum‑margin hyperplanes and kernel functions to learn classifiers from data, providing robust generalization for tasks such as text classification and machine translation.",
+    "expected": "answer",
+    "source": "Natural_language_processing.txt + Support_vector_machine.txt",
+    "id": "q053",
+    "split": "test"
+  },
+  {
+    "category": "in_kb_complex",
+    "question": "According to the passages, why do convolutional neural networks (CNNs) outperform humans on fine‑grained object classification, and under what data conditions might a decision‑tree model be a more suitable choice for visual recognition tasks?",
+    "reference": "CNNs learn hierarchical visual features that can capture subtle differences between similar categories, allowing them to classify fine‑grained objects (e.g., specific dog breeds) more accurately than humans. Decision‑tree models become preferable when the input features are heterogeneous, possibly redundant, or when the dataset contains complex, non‑linear interactions that are easier to capture with tree splits, especially if interpretability or limited training data are concerns.",
+    "expected": "answer",
+    "source": "Convolutional_neural_network.txt + Supervised_learning.txt",
+    "id": "q054",
+    "split": "dev"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "Who won the 2010 FIFA World Cup?",
+    "reference": "Spain",
+    "expected": "answer",
+    "source": "-",
+    "id": "q055",
+    "split": "test"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "What is the capital of Australia?",
+    "reference": "Canberra",
+    "expected": "answer",
+    "source": "-",
+    "id": "q056",
+    "split": "dev"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "Who wrote the novel Pride and Prejudice?",
+    "reference": "Jane Austen",
+    "expected": "answer",
+    "source": "-",
+    "id": "q057",
+    "split": "test"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "What is the chemical symbol for gold?",
+    "reference": "Au",
+    "expected": "answer",
+    "source": "-",
+    "id": "q058",
+    "split": "dev"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "In which year did India gain independence?",
+    "reference": "1947",
+    "expected": "answer",
+    "source": "-",
+    "id": "q059",
+    "split": "test"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "Who painted the Mona Lisa?",
+    "reference": "Leonardo da Vinci",
+    "expected": "answer",
+    "source": "-",
+    "id": "q060",
+    "split": "dev"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "reference": "100 degrees Celsius",
+    "expected": "answer",
+    "source": "-",
+    "id": "q061",
+    "split": "test"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "Which planet is known as the Red Planet?",
+    "reference": "Mars",
+    "expected": "answer",
+    "source": "-",
+    "id": "q062",
+    "split": "dev"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "Who was the first person to walk on the Moon?",
+    "reference": "Neil Armstrong",
+    "expected": "answer",
+    "source": "-",
+    "id": "q063",
+    "split": "test"
+  },
+  {
+    "category": "out_of_kb",
+    "question": "What is the largest ocean on Earth?",
+    "reference": "The Pacific Ocean",
+    "expected": "answer",
+    "source": "-",
+    "id": "q064",
+    "split": "dev"
+  },
+  {
+    "category": "false_premise",
+    "question": "Why did Alan Turing invent the transformer architecture?",
+    "reference": "False premise: transformers were introduced in 2017 by Vaswani et al., not Turing.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q065",
+    "split": "test"
+  },
+  {
+    "category": "false_premise",
+    "question": "In what year did Geoffrey Hinton win the Fields Medal for inventing backpropagation?",
+    "reference": "False premise: Hinton did not win a Fields Medal, and he did not invent backpropagation alone.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q066",
+    "split": "dev"
+  },
+  {
+    "category": "false_premise",
+    "question": "Explain how k-means clustering guarantees finding the global optimum.",
+    "reference": "False premise: k-means only converges to a local optimum.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q067",
+    "split": "test"
+  },
+  {
+    "category": "false_premise",
+    "question": "Why does gradient descent always converge in a single step for any neural network?",
+    "reference": "False premise: it does not; it is an iterative method.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q068",
+    "split": "dev"
+  },
+  {
+    "category": "false_premise",
+    "question": "What did the 1995 paper 'Attention Is All You Need' propose?",
+    "reference": "False premise: that paper is from 2017.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q069",
+    "split": "test"
+  },
+  {
+    "category": "false_premise",
+    "question": "Which chapter of our college's syllabus covers quantum backpropagation?",
+    "reference": "Unanswerable: no such information exists in the knowledge base.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q070",
+    "split": "dev"
+  },
+  {
+    "category": "false_premise",
+    "question": "Why are decision trees always more accurate than random forests?",
+    "reference": "False premise: random forests usually outperform single trees.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q071",
+    "split": "test"
+  },
+  {
+    "category": "false_premise",
+    "question": "What is the exact GPU count used to train the first convolutional neural network in 1950?",
+    "reference": "False premise: CNNs did not exist in 1950 and GPUs were not used.",
+    "expected": "reject",
+    "source": "-",
+    "id": "q072",
+    "split": "dev"
+  }
+]

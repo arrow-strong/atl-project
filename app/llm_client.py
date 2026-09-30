@@ -1,6 +1,10 @@
 import time
+
 import httpx
+
 from app.config import MODELS, GROQ_API_KEY, OLLAMA_URL
+
+CALL_LOG = []
 
 
 def _call_ollama(model_id: str, prompt: str, temperature: float) -> str:
@@ -42,7 +46,6 @@ def call_llm(
     """Single entry point for every model. Returns text + latency for logging."""
 
     cfg = MODELS[model_name]
-
     fn = _call_ollama if cfg["provider"] == "ollama" else _call_groq
 
     last_err = None
@@ -57,11 +60,18 @@ def call_llm(
                 temperature,
             )
 
-            return {
+            result = {
                 "text": text,
                 "model": model_name,
                 "latency_s": round(time.time() - start, 2),
             }
+
+            CALL_LOG.append({
+                "model": model_name,
+                "latency_s": result["latency_s"],
+            })
+
+            return result
 
         except Exception as e:
             last_err = e
